@@ -9,7 +9,7 @@ export default function SegmentCreationWizard({
   connectLink,
 }) {
   return (
-    <Card>
+    <Card noPadding>
       <EmbeddedFrame
         connectLink={connectLink}
         onExit={async (response) => {
